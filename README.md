@@ -1,15 +1,21 @@
-# 🏗️ Market Sentinel: The June 1st Sprint
-Building a fully automated, AI-driven market analysis bot in 45 days.
+## 🚀 Progress Log
 
-## 📈 The Progress Log
-- **Apr 17 (Day 1):** Foundation Logic & CSV Vault. 
-  - Implemented risk-management logic.
-  - Built persistent data storage (CSV).
-  - Integrated error handling for market data inputs.
+### Day 4: Global Wealth Engine (April 20, 2026)
+- **Feature:** Multi-Currency Portfolio Calibration.
+- **Innovation:** Integrated live `USDINR=X` exchange rate fetching to unify global assets.
+- **Logic:** Built a conversion engine to calculate total net worth across international (USD) and domestic (INR) markets.
+- **Status:** System now provides a single "Source of Truth" for total wealth.
 
-## 📈 The Progress Log
-- **Apr 18 (Day 2): Live Market Integration** 🔍
-  - Integrated `yfinance` API to fetch real-time global market data.
-  - Implemented automatic ticker validation (Stocks, Crypto, NSE).
-  - Enhanced Terminal UI with aligned data columns for professional monitoring.
-  - Automated the risk-calculation engine using live price feeds.
+### Day 3: The Persistent Vault (April 19, 2026 - Backfilled)
+- **Feature:** Historical Data Logging.
+- **Tools:** Implemented Python `csv` module for local database management.
+- **Function:** Added automated writing to `sentinel_vault.csv` to track P/L (Profit/Loss) over time.
+- **Interface:** Created a continuous `while True` loop for multi-ticker manual entry.
+
+### Day 2: Advanced Price Fetching (April 18, 2026)
+- Improved error handling for invalid tickers using `try/except`.
+- Formatted terminal output for better readability.
+
+### Day 1: The Pulse (April 17, 2026)
+- Initialized connection to Yahoo Finance API.
+- Basic real-time price fetching for TSLA and NVDA.
